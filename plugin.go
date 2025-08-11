@@ -22,8 +22,10 @@ func (p *Plugin) Name() string {
 	return "last_login"
 }
 
+var version string
+
 func (p *Plugin) Version() string {
-	return "v0.0.1"
+	return version
 }
 
 func (p *Plugin) Description() string {
