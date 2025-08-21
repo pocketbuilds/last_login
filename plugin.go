@@ -1,9 +1,9 @@
 package last_login
 
 import (
-	"github.com/PocketBuilds/xpb"
 	"github.com/pocketbase/pocketbase/core"
 	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/pocketbuilds/xpb"
 )
 
 func init() {

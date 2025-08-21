@@ -5,8 +5,8 @@ package main
 import (
 	"log"
 
-	plugin "github.com/PocketBuilds/last_login"
 	"github.com/pocketbase/pocketbase"
+	plugin "github.com/pocketbuilds/last_login"
 )
 
 func main() {
