@@ -18,7 +18,9 @@ func TestPlugin(t *testing.T) {
 		}
 		(&Plugin{
 			// test config will go here
-			FieldName: "last_login",
+			Fields: []string{
+				"users.last_login",
+			},
 		}).Init(testApp)
 		return testApp
 	}
