@@ -5,7 +5,7 @@ package main
 import (
 	"log"
 
-	"github.com/pocketbase/pocketbase"
+	"ganigeorgiev.com/pocketbase/pocketbase"
 	plugin "github.com/pocketbuilds/last_login"
 )
 
@@ -14,7 +14,7 @@ func main() {
 
 	(&plugin.Plugin{
 		// test config will go here
-		FieldName: "last_login",
+		Fields: []string{"users.last_login"},
 	}).Init(app)
 
 	err := app.Start()
